@@ -1,0 +1,51 @@
+.window{
+    height: 500px;
+    width: 700px;
+    background: #151515;
+    color: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+
+
+    .top{
+        border-bottom: rgb(123, 122, 122);
+        padding: 0.5rem ;
+        gap: 1rem;
+        display: flex;
+        align-items: center;
+
+
+        .dotes{
+            display: flex;
+            gap: 0.2rem;
+            
+            .dot{
+                height: 10px;
+                width: 10px;
+                border-radius: 50%;   
+            }
+
+            .red{
+                background: rgb(225, 11, 11);
+            }
+            .yellow{
+                background: rgb(234, 234, 2);
+            }
+            .green{
+                background: rgb(0, 191, 0);
+            }
+
+        }
+
+        p{
+            color: rgb(114, 113, 113);
+        }
+    }
+
+    .mainContent{
+        height: 100%;
+    }
+
+ 
+
+}

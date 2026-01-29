@@ -1,0 +1,59 @@
+.cards {
+  color: white;
+  padding: 0.5rem;
+  overflow: scroll;
+  height: 100%;
+  display: grid;
+  gap: 0.8rem;
+
+  .card {
+    border: 1px solid rgb(69, 68, 68);
+    color: white;
+    padding-inline: 0.2rem;
+    background: rgb(52, 53, 54);
+    width: 20rem;
+
+    img{
+        width: 100%;
+        height: 14rem;
+    }
+
+    h1{
+        font-size: 1.2rem;
+        margin-block:0.6rem ;
+    }
+    p{
+        font-size: 0.9rem;
+    }
+
+    .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.2rem;
+        margin-block: 2rem;
+
+       
+
+      .tag {
+        color: white;
+        padding-inline: 0.5rem;
+        padding-block: 0.01rem;
+        border-radius: 0.4rem;
+        background: rgb(93, 90, 90);
+        flex-shrink: 0;
+        
+      }
+    }
+
+    .urls{
+        display: flex;
+        justify-content: space-between;
+        
+        a{
+            color: whitesmoke;
+        }
+    }
+
+
+  }
+}
