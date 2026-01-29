@@ -4,12 +4,12 @@ import { Rnd } from "react-rnd"
 
 
 
-const macWindow = ({children}) => {
+const macWindow = ({children , width="40vw" , height="60vh"}) => {
   return (
     <Rnd
     default={{
-        width:"45vw",
-        height:"60vh",
+        width: width,
+        height: height,
         x:300,
         y:100
     }}
