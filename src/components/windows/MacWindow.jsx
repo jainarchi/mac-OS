@@ -6,7 +6,14 @@ import { Rnd } from "react-rnd"
 
 const macWindow = ({children}) => {
   return (
-    <Rnd>
+    <Rnd
+    default={{
+        width:"45vw",
+        height:"60vh",
+        x:300,
+        y:100
+    }}
+    >
 
         <div className="window">
             <div className='top'>
