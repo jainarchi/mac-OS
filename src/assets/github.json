@@ -6,7 +6,7 @@
     "description": "My proudest project yet, a comprehensive course schedule generator application built with ASP.NET Core MVC.",
     "tags": ["ASP.NET Core", "C#", "Entity Framework", "SQL Server", "Bootstrap", "jQuery"],
     "repoLink": "https://github.com/microsoft/dotnet",
-    "demoLink": "https://dotnet.microsoft.com/"
+    "demoLink": null
   },
   {
     "id": 2,
