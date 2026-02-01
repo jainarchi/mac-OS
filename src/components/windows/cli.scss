@@ -1,0 +1,15 @@
+.cli-window{
+    height: 100%;
+    overflow: auto;
+    padding-bottom:3rem ;
+
+    .terminal{
+        height: 100%;
+        font-size: 14px;
+        line-height: 1.6;
+        color: #f8f8f2;
+        -webkit-font-smoothing: antialiased;
+
+
+    }
+}

@@ -4,7 +4,7 @@ import { Rnd } from "react-rnd"
 
 
 
-const macWindow = ({children , width="40vw" , height="60vh"}) => {
+const macWindow = ({children , width="40vw" , height="60vh" , setWindowState , windowName}) => {
   return (
     <Rnd
     default={{
@@ -18,7 +18,10 @@ const macWindow = ({children , width="40vw" , height="60vh"}) => {
         <div className="window">
             <div className='top'>
                 <div className="dotes">
-                    <div className="dot red"></div>
+                    <div 
+                    onClick={() =>{ setWindowState(state => ({...state , [windowName]: false }) )} }
+
+                    className="dot red"></div>
                     <div className="dot yellow"></div>
                     <div className="dot green"></div>
                 </div>

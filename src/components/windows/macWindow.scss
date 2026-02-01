@@ -5,7 +5,7 @@
     color: white;
     border-radius: 0.5rem;
     overflow: hidden;
-
+    
 
     .top{
         border-bottom: rgb(123, 122, 122);
@@ -27,6 +27,7 @@
 
             .red{
                 background: rgb(225, 11, 11);
+                cursor: pointer;
             }
             .yellow{
                 background: rgb(234, 234, 2);
@@ -44,6 +45,7 @@
 
     .mainContent{
         height: 100%;
+       
     }
 
 

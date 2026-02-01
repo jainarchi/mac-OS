@@ -34,3 +34,5 @@ npm i react-markdown
 - markdown highlighter
 
 iframe embad
+
+// for cli used - npm i react-console-emulator
