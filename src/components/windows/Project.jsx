@@ -1,6 +1,6 @@
 import MacWindow from "./macWindow"
 import githubData from '../../assets/github.json'
-import './github.scss'
+import './project.scss'
 
 
 const GitCard = ({ data = { id: 1, image: "", title: "", description: "", tags: [], repoLink: "", demoLink: "" } }) => {
@@ -28,7 +28,7 @@ const GitCard = ({ data = { id: 1, image: "", title: "", description: "", tags: 
 
 
 
-const Github = ({setWindowState , windowName}) => {
+const Project = ({setWindowState , windowName}) => {
   return (
     <MacWindow setWindowState={setWindowState} windowName={windowName} >
       
@@ -46,4 +46,4 @@ const Github = ({setWindowState , windowName}) => {
   )
 }
 
-export default Github
+export default Project
